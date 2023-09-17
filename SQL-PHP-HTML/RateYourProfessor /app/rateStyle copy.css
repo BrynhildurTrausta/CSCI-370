@@ -1,0 +1,105 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: F1B0E3;
+}
+
+li {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #A50A85;
+}
+
+.active {
+	background-color: #EE84D7;
+}
+
+
+body {
+	background-image: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+tr {
+	background-color: #72CAF5;
+	color: white;
+}
+
+th {
+	background-color: #43BBF6;
+	color: white;
+	column-width: auto;
+}
+
+td {
+	text-align: center;
+	vertical-align: top;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.e {
+	display: flex; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+table,th,td {
+	border: 2px solid darkblue;
+	padding: 8px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.container {
+	display: flex;
+}
+
+.card {
+	border-radius: 20px;
+	column-gap: 10px;
+	height: 200px;
+	background-color: #fff;
+	flex: 1;
+	transition: .3s all ease;
+}
+
+.card:hover{
+	flex: 2;
+	background-color: rgb(207, 207, 207);
+}
+
+div>table {
+  float: left
+}
